@@ -1,3 +1,5 @@
+//Space Helper by @juegoman
+
 $(document).ready(function () {
 	var calcBtn = $("#calc");
 	var parallaxInput = $("#parallax");
