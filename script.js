@@ -77,7 +77,7 @@ $(document).ready(function () {
 		pMassGOutput.text(pMassGrams);
 		var pRadius = Math.sqrt(brightnessDrop / 100) * sRadius * 109;
 		pRadiusOutput.text(pRadius);
-		var pRadiusCM = pRadius + 6.37 * Math.pow(10, 8);
+		var pRadiusCM = pRadius * 6.37 * Math.pow(10, 8);
 		pRadiusCMOutput.text(pRadiusCM);
 		var pVolume = (4 / 3) * Math.PI * Math.pow(pRadiusCM, 3);
 		pVolumeOutput.text(pVolume);
